@@ -6,6 +6,7 @@ namespace Collections
     {
         static void Main()
         {
+            //Dimo's way of method presentation
             /* var collection = new Collection<int>(); // New empty collection
              Console.WriteLine("Current collection: " + collection);
 
@@ -32,6 +33,8 @@ namespace Collections
              collection.Clear(); // Clear everything from the collection
              Console.WriteLine("Current collection: " + collection); */
 
+
+            // Softuni's way of method presentation
             Console.WriteLine();
             Console.WriteLine("Collection<T> Examples");
             Console.WriteLine("======================");

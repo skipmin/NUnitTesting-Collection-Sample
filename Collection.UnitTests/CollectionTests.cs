@@ -63,5 +63,14 @@ namespace Collection.UnitTests
 
             Assert.That(item.ToString, Is.EqualTo("6"));
         }
+
+        [Test]
+        public void Test_Collection_SetByIndex()
+        {
+            var coll = new Collections<int>(3, 6, 9);
+            var item = coll[1];
+
+            Assert.That(item.ToString, Is.EqualTo("6"));
+        }
     }
 }
